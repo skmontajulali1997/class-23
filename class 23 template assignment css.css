@@ -45,40 +45,234 @@ header{
 /* side bar section */
 .main-div{
     display: flex;
+    
+}
+.laft-content{
+    flex-basis: 80%;
+}
+.right-sidebar{
+    flex-basis: 20%;
+}
+.first-section{
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-around;
+
 }
 
 
 aside{
     background-color: #d2d2d2;
     border-left: 1px solid red;
+    width: 350px;
+    height: 940px;
+    padding: 30px;
+    margin-top: 100px;
+    align-self: stretch;
 }
-.div1{
-    width: 450px;
-    height: 450px;
-    border: 1px solid forestgreen;
+aside h1{
+    padding: 30px 0;
 }
-.div2{
-    width: 450px;
-    height: 450px;
-    border: 1px solid forestgreen;
+aside img{
+    width: 300px;
 }
-.div3{
+.div1 {
     width: 450px;
-    height: 450px;
+    height: 300px;
     border: 1px solid forestgreen;
+    
+
+}
+.div2 {
+    width: 450px;
+    height: 300px;
+    border: 1px solid forestgreen;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div3 {
+    width: 450px;
+    height: 300px;
+    border: 1px solid forestgreen;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    
 }
 .child-div1{
     background-color: red;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
 }
 .child-div2{
     background-color: red;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+    
 }
 .child-div3{
     background-color: red;
-    width: 150px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.section-two{
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-evenly;
+    
+}
+.section-two p{
+    padding: 20px;
+}
+
+.div4{
+    width: 360px;
     height: 150px;
+    border: 1px solid forestgreen;
+    
+    
+}
+.div5 {
+    width: 700px;
+    height: 150px;
+    border: 1px solid forestgreen;
+}
+.div6{
+    width: 360px;
+    height: 150px;
+    border: 1px solid forestgreen;
+
+    
+}
+/* section-3 */
+
+.section-three{
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-around;
+
+}
+.div-7 {
+    width: 450px;
+    height: 203px;
+    border: 1px solid forestgreen;
+    display: flex;
+    justify-content: space-around;
+
+}
+.div-7 div{
+    background-color: red;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border: 1px solid forestgreen;
+    margin-top: 30px;
+    
+}
+.flexx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.div-8 {
+    width: 400px;
+    height: 170px;
+    border: 1px solid forestgreen;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 32px 0px 0 31px;
+    
+
+}
+.div-8 div{
+    background-color: red;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border: 1px solid forestgreen;
+  
+}
+
+.div-9 {
+    width: 450px;
+    height: 170px;
+    border: 1px solid forestgreen;
+    display: flex;
+    
+    justify-content: center;
+    padding: 17px 0;
+}
+
+
+.div-9 div{
+    background-color: red;
+    color: #fff;
+    width: 90px;
+    height: 50px;
+    border: 1px solid forestgreen;
+    justify-content: space-around;
+}
+.flexx21{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexx22{
+    align-self: center;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexx23{
+    align-self: flex-end;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* footer-menu */
+.footer-menu{
+    background-color: #141719;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+.footer-menu{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+.footer-menu ul{
+    list-style: none;
+    display: flex;  
+}
+.footer-menu ul li {
+    border-bottom: 1px solid #ddd;
+    padding: 16px 0;
+    margin-left: 15px;
+}
+.footer-menu ul li a {
+    display: inline-block;
+    padding: 0 11px;
+    color: #ddd;
+    text-decoration: none;
 }
